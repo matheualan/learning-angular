@@ -13,9 +13,10 @@
   <section>
     <div>
       <app-first-component> </app-first-component>
-      <a href="#">Clique Aqui!</a>
+      <app-parent-data [name]="userName" [password]="password" [userData]="userData"></app-parent-data>
     </div>
     <div>
+      <br> <a href="#">Clique Aqui!</a>
     </div>
   </section>
   <footer>
