@@ -6,17 +6,16 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./first-component.component.css'] //um array para informar os caminhos dos arquivos CSS
 })
 export class FirstComponentComponent implements OnInit {
-
   @Input() nameInput: string = 'ABC';
 
-  name: string = 'Matheus';
+  name: string = 'Alan';
   age: number = 30;
   job: string = 'Programador';
   hobbies = ['Jogar Online', 'Cultivar Plantas', 'Estudar Programação'];
   car = {
     name: 'Onix',
-    motor: 1.0,
-    year: 2015
+    motor: 1.6,
+    year: 2018
   }
 
   constructor() { }

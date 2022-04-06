@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title: string = 'Curso Angular 13';
   userName: string = 'Tilton Nascimento';
-  password: number = 123456;
+  password: string = '*******';
   userData = {
     email: 'tilton@hotmail.com',
     role: 'Admin'

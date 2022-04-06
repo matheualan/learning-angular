@@ -8,7 +8,7 @@ import { Component, Input, OnInit } from '@angular/core';
 export class ParentDataComponent implements OnInit {
   @Input() name: string = '';
   @Input() userData!: {email: string, role: string};
-  @Input() password!: number;
+  @Input() password!: string;
 
   constructor() {
   }
