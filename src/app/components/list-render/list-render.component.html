@@ -1,0 +1,11 @@
+<section class="class">
+    <div>
+        <h2>Animais: </h2>
+        <ul>
+            <!-- *ngFor="nome da lista" é usado para imprimir listas na tela após obter os dados da lista -->
+            <li *ngFor="let animal of animals"> 
+                Nome: {{ animal.name }}, Tipo: {{ animal.type }}
+            </li>
+        </ul>
+    </div>
+</section>
