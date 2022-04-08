@@ -1,11 +1,14 @@
-.titulo {
+.header {
     background: rgba(0, 0, 0, 0.897);
     padding: 18px;
     color: orangered;
+    border-bottom: 5px solid orangered;
 }
 
-a {
+.footer {
     background: rgba(0, 0, 0, 0.897);
-    padding: 2px;
-    color: aliceblue;
+    padding: 18px;
+    color: orangered;
+    border-top: 5px solid orangered;
+    border-bottom: 5px solid orangered;
 }

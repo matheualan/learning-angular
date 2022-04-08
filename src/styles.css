@@ -3,9 +3,31 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Helvetica;
+    font-family: Tahoma;
 }
 
 a {
-    color: orange;
+    color: whitesmoke;
+}
+
+body {
+    padding-bottom: 500px;
+}
+
+.roots {
+    margin-bottom: 2em;
+}
+
+.class {
+    border-bottom: 1px solid whitesmoke;
+    padding: 2em;
+    background: rgba(0, 0, 0, 0.897);
+    color: orangered;
+}
+
+.class2 {
+    border-bottom: 1px solid whitesmoke;
+    background: orangered;
+    padding: 2em;
+    color: #000;
 }

@@ -1,0 +1,13 @@
+<section class="class">
+    <div *ngIf="canShow">
+        <h2>Estamos mostrando isso por que foi permitido</h2>
+    </div>
+    <div>
+        <h2 *ngIf="name === 'Matheus'; else nameNotFound">O nome é Matheus Alan</h2>
+        <ng-template #nameNotFound>  <!-- Renderização condicional por meio da # -->
+            <div>
+                <h2>O nome não foi encontrado!</h2>
+            </div>
+        </ng-template>
+    </div>
+</section>
