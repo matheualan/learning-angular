@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class IfRenderComponent implements OnInit {
   canShow: boolean = false; //usado com o *ngIf=canShow para liberar ou não algum conteúdo
   
-  name: string = 'Matheus';
+  name: string = 'Matheu';
 
   constructor() { }
 
