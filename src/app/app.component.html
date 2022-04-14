@@ -12,7 +12,14 @@
   </header>
   <section>
     <div>
-      <app-first-component> </app-first-component>
+      <nav class="class">
+        <a routerLink="/">Home - First Component</a>
+        <br><a routerLink="/parent">Parent Data</a>
+        <br><a routerLink="/list">List Render</a>
+        <br><a routerLink="/if">If Render</a>
+      </nav>
+      <router-outlet></router-outlet>
+      <!-- <app-first-component> </app-first-component>
       <app-parent-data [name]="userName" [password]="password" [userData]="userData"></app-parent-data>
       <app-directives></app-directives>
       <app-if-render></app-if-render>
@@ -20,10 +27,10 @@
       <app-emitter></app-emitter>
       <app-list-render></app-list-render>
       <app-pipes></app-pipes>
-      <app-two-way-binding></app-two-way-binding>
+      <app-two-way-binding></app-two-way-binding> -->
     </div>
     <div>
-
+    
     </div>
   </section>
   <footer class="footer">
